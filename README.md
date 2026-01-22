@@ -22,6 +22,15 @@ $env:CGO_ENABLED = "0"
 
 go build -trimpath -ldflags "-s -w" -o lite-linux-with-ip
 ```
+### Start
+
+ ```
+ go run . -input "https://xxxx"
+ ```
+
+ ```
+ ./lite-linux-with-ip -input "https://xxxx"
+ ```
 
 ## Credits
 
