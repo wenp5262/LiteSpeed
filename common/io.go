@@ -5,7 +5,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/wenp5262/LiteSpeedTest/log"
+	"github.com/wenp5262/LiteSpeed/log"
 )
 
 type RewindReader struct {

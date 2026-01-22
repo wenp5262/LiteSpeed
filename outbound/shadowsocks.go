@@ -8,14 +8,13 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/wenp5262/LiteSpeedTest/stats"
-	"github.com/wenp5262/LiteSpeedTest/transport/dialer"
-	"github.com/wenp5262/LiteSpeedTest/transport/socks5"
+	"github.com/wenp5262/LiteSpeed/stats"
+	"github.com/wenp5262/LiteSpeed/transport/dialer"
+	"github.com/wenp5262/LiteSpeed/transport/socks5"
 
 	"github.com/Dreamacro/go-shadowsocks2/core"
-	"github.com/wenp5262/LiteSpeedTest/common/structure"
-	C "github.com/wenp5262/LiteSpeedTest/constant"
-	"github.com/wenp5262/LiteSpeedTest/log"
+	"github.com/wenp5262/LiteSpeed/common/structure"
+	C "github.com/wenp5262/LiteSpeed/constant"
 )
 
 type ShadowSocks struct {
@@ -75,13 +74,13 @@ func (ss *ShadowSocks) StreamConn(c net.Conn, metadata *C.Metadata) (net.Conn, e
 }
 
 func (ss *ShadowSocks) DialContext(ctx context.Context, metadata *C.Metadata) (net.Conn, error) {
-	log.I("start dial from", ss.addr, "to", metadata.RemoteAddress())
+	//log.I("start dial from", ss.addr, "to", metadata.RemoteAddress())
 	c, err := dialer.DialContext(ctx, "tcp", ss.addr)
 	if err != nil {
 		return nil, fmt.Errorf("%s connect error: %w", ss.addr, err)
 	}
 	tcpKeepAlive(c)
-	log.I("start StreamConn from", ss.addr, "to", metadata.RemoteAddress())
+	//log.I("start StreamConn from", ss.addr, "to", metadata.RemoteAddress())
 	sc := stats.NewStatsConn(c)
 	return ss.StreamConn(sc, metadata)
 }

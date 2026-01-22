@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/wenp5262/LiteSpeedTest/transport/dialer"
+	"github.com/wenp5262/LiteSpeed/transport/dialer"
 
 	D "github.com/miekg/dns"
 )

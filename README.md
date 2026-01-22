@@ -1,6 +1,6 @@
-# LiteSpeedTest
+# LiteSpeed
 
-LiteSpeedTest is a simple tool for batch test ss/ssr/v2ray/trojan/clash servers.   
+LiteSpeed is a simple tool for batch test ss/ssr/v2ray/trojan/clash servers.   
 Feature
 - 支持ss/ssr/v2ray/trojan/clash订阅链接
 - 支持ss/ssr/v2ray/trojan/clash节点链接
@@ -10,7 +10,7 @@ Feature
 - support ss/ssr/v2ray/trojan/clash subscription or profile file, 
 
 
- ![build](https://github.com/xxf098/LiteSpeedTest/actions/workflows/test.yaml/badge.svg?branch=master&event=push) 
+ ![build](https://github.com/xxf098/LiteSpeed/actions/workflows/test.yaml/badge.svg?branch=master&event=push) 
 
 ### Usage
 ```
@@ -24,7 +24,7 @@ Run as a speed test tool:
     ./lite --test https://raw.githubusercontent.com/freefq/free/master/v2
     # test in command line only mode with custom config.
     ./lite --config config.json --test https://raw.githubusercontent.com/freefq/free/master/v2
-    # details can find here https://github.com/xxf098/LiteSpeedTest/blob/master/config.json
+    # details can find here https://github.com/xxf098/LiteSpeed/blob/master/config.json
     # all config options:
     #       "group":"job",   // group name
 	#       "speedtestMode":"pingonly", // speedonly pingonly all
@@ -85,7 +85,7 @@ import (
     "context"
     "fmt"
 	"time"
-    "github.com/wenp5262/LiteSpeedTest/web"
+    "github.com/wenp5262/LiteSpeed/web"
 )
 // see more details in ./examples
 func testPing() error {

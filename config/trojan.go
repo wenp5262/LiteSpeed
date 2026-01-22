@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/wenp5262/LiteSpeedTest/outbound"
+	"github.com/wenp5262/LiteSpeed/outbound"
 )
 
 // type TrojanGoOption struct {

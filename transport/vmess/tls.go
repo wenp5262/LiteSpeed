@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"net"
 
-	C "github.com/wenp5262/LiteSpeedTest/constant"
+	C "github.com/wenp5262/LiteSpeed/constant"
 )
 
 type TLSConfig struct {

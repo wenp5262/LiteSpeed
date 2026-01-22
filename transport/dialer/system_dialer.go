@@ -6,7 +6,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/wenp5262/LiteSpeedTest/log"
+	"github.com/wenp5262/LiteSpeed/log"
 )
 
 type controller func(network, address string, fd uintptr) error

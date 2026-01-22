@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wenp5262/LiteSpeedTest/common/pool"
-	"github.com/wenp5262/LiteSpeedTest/log"
+	"github.com/wenp5262/LiteSpeed/common/pool"
+	"github.com/wenp5262/LiteSpeed/log"
 
 	"github.com/Dreamacro/go-shadowsocks2/core"
 )

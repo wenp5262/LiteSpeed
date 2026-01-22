@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net"
 
-	C "github.com/wenp5262/LiteSpeedTest/constant"
-	"github.com/wenp5262/LiteSpeedTest/outbound"
-	"github.com/wenp5262/LiteSpeedTest/tunnel"
+	C "github.com/wenp5262/LiteSpeed/constant"
+	"github.com/wenp5262/LiteSpeed/outbound"
+	"github.com/wenp5262/LiteSpeed/tunnel"
 )
 
 type Client struct {

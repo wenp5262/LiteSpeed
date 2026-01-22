@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wenp5262/LiteSpeedTest/common/cache"
-	"github.com/wenp5262/LiteSpeedTest/common/picker"
-	"github.com/wenp5262/LiteSpeedTest/transport/resolver"
+	"github.com/wenp5262/LiteSpeed/common/cache"
+	"github.com/wenp5262/LiteSpeed/common/picker"
+	"github.com/wenp5262/LiteSpeed/transport/resolver"
 	"golang.org/x/sync/singleflight"
 
 	// "github.com/Dreamacro/clash/component/trie"

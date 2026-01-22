@@ -13,9 +13,9 @@ import (
 	"net/http"
 	"sync"
 
-	C "github.com/wenp5262/LiteSpeedTest/constant"
-	"github.com/wenp5262/LiteSpeedTest/transport/socks5"
-	"github.com/wenp5262/LiteSpeedTest/transport/vmess"
+	C "github.com/wenp5262/LiteSpeed/constant"
+	"github.com/wenp5262/LiteSpeed/transport/socks5"
+	"github.com/wenp5262/LiteSpeed/transport/vmess"
 )
 
 const (

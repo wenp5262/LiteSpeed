@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wenp5262/LiteSpeedTest/common/pool"
+	"github.com/wenp5262/LiteSpeed/common/pool"
 
 	"go.uber.org/atomic"
 	"golang.org/x/net/http2"

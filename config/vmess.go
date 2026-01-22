@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/wenp5262/LiteSpeedTest/outbound"
-	"github.com/wenp5262/LiteSpeedTest/utils"
+	"github.com/wenp5262/LiteSpeed/outbound"
+	"github.com/wenp5262/LiteSpeed/utils"
 )
 
 var RegShadowrocketVmess = regexp.MustCompile(`(?i)vmess://(\S+?)@(\S+?):([0-9]{2,5})/?([?#][^\s]+)`)

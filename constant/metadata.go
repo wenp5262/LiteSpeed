@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/wenp5262/LiteSpeedTest/transport/socks5"
+	"github.com/wenp5262/LiteSpeed/transport/socks5"
 )
 
 // Socks addr type

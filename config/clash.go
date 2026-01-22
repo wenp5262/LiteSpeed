@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/wenp5262/LiteSpeedTest/dns"
+	"github.com/wenp5262/LiteSpeed/dns"
 	"gopkg.in/yaml.v2"
 )
 

@@ -13,13 +13,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wenp5262/LiteSpeedTest/common"
-	"github.com/wenp5262/LiteSpeedTest/config"
-	C "github.com/wenp5262/LiteSpeedTest/constant"
-	"github.com/wenp5262/LiteSpeedTest/dns"
-	"github.com/wenp5262/LiteSpeedTest/outbound"
-	"github.com/wenp5262/LiteSpeedTest/transport/resolver"
-	"github.com/wenp5262/LiteSpeedTest/utils"
+	"github.com/wenp5262/LiteSpeed/common"
+	"github.com/wenp5262/LiteSpeed/config"
+	C "github.com/wenp5262/LiteSpeed/constant"
+	"github.com/wenp5262/LiteSpeed/dns"
+	"github.com/wenp5262/LiteSpeed/outbound"
+	"github.com/wenp5262/LiteSpeed/transport/resolver"
+	"github.com/wenp5262/LiteSpeed/utils"
 )
 
 const (

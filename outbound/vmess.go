@@ -10,14 +10,13 @@ import (
 	"strconv"
 	"strings"
 
-	C "github.com/wenp5262/LiteSpeedTest/constant"
-	"github.com/wenp5262/LiteSpeedTest/log"
-	"github.com/wenp5262/LiteSpeedTest/stats"
-	"github.com/wenp5262/LiteSpeedTest/transport/dialer"
-	"github.com/wenp5262/LiteSpeedTest/transport/resolver"
-	"github.com/wenp5262/LiteSpeedTest/transport/socks5"
-	"github.com/wenp5262/LiteSpeedTest/transport/vmess"
-	"github.com/wenp5262/LiteSpeedTest/utils"
+	C "github.com/wenp5262/LiteSpeed/constant"
+	"github.com/wenp5262/LiteSpeed/stats"
+	"github.com/wenp5262/LiteSpeed/transport/dialer"
+	"github.com/wenp5262/LiteSpeed/transport/resolver"
+	"github.com/wenp5262/LiteSpeed/transport/socks5"
+	"github.com/wenp5262/LiteSpeed/transport/vmess"
+	"github.com/wenp5262/LiteSpeed/utils"
 )
 
 type Vmess struct {
@@ -175,7 +174,7 @@ func (v *Vmess) StreamConn(c net.Conn, metadata *C.Metadata) (net.Conn, error) {
 }
 
 func (v *Vmess) DialContext(ctx context.Context, metadata *C.Metadata) (net.Conn, error) {
-	log.I("start dial from", v.addr, "to", metadata.RemoteAddress())
+	//log.I("start dial from", v.addr, "to", metadata.RemoteAddress())
 	c, err := dialer.DialContext(ctx, "tcp", v.addr)
 	if err != nil {
 		return nil, fmt.Errorf("%s connect error: %s", v.addr, err.Error())
@@ -187,7 +186,7 @@ func (v *Vmess) DialContext(ctx context.Context, metadata *C.Metadata) (net.Conn
 		}
 	}
 
-	log.I("start StreamConn from", v.addr, "to", metadata.RemoteAddress())
+	//log.I("start StreamConn from", v.addr, "to", metadata.RemoteAddress())
 	sc := stats.NewConn(c)
 	return v.StreamConn(sc, metadata)
 }

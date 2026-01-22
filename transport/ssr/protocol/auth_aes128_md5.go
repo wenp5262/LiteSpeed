@@ -1,6 +1,6 @@
 package protocol
 
-import "github.com/wenp5262/LiteSpeedTest/transport/ssr/tools"
+import "github.com/wenp5262/LiteSpeed/transport/ssr/tools"
 
 func init() {
 	register("auth_aes128_md5", newAuthAES128MD5, 9)

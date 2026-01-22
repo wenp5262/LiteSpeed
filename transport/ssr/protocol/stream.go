@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"net"
 
-	"github.com/wenp5262/LiteSpeedTest/common/pool"
+	"github.com/wenp5262/LiteSpeed/common/pool"
 )
 
 type Conn struct {

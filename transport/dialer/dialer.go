@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/wenp5262/LiteSpeedTest/transport/resolver"
+	"github.com/wenp5262/LiteSpeed/transport/resolver"
 )
 
 func DialContext(ctx context.Context, network, address string) (net.Conn, error) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/wenp5262/LiteSpeedTest/common"
-	C "github.com/wenp5262/LiteSpeedTest/constant"
+	"github.com/wenp5262/LiteSpeed/common"
+	C "github.com/wenp5262/LiteSpeed/constant"
 )
 
 type Base struct {

@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/wenp5262/LiteSpeedTest/common"
-	"github.com/wenp5262/LiteSpeedTest/outbound"
-	"github.com/wenp5262/LiteSpeedTest/utils"
+	"github.com/wenp5262/LiteSpeed/common"
+	"github.com/wenp5262/LiteSpeed/outbound"
+	"github.com/wenp5262/LiteSpeed/utils"
 )
 
 func Link2Dialer(link string) (outbound.Dialer, error) {

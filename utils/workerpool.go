@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wenp5262/LiteSpeedTest/tunnel"
+	"github.com/wenp5262/LiteSpeed/tunnel"
 )
 
 // WorkerPool serves incoming connections via a pool of workers

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/wenp5262/LiteSpeedTest/dns"
+	"github.com/wenp5262/LiteSpeed/dns"
 )
 
 var defaultResolver *dns.Resolver

@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/wenp5262/LiteSpeedTest/common"
-	N "github.com/wenp5262/LiteSpeedTest/common/net"
-	"github.com/wenp5262/LiteSpeedTest/common/pool"
-	"github.com/wenp5262/LiteSpeedTest/log"
-	"github.com/wenp5262/LiteSpeedTest/tunnel"
-	"github.com/wenp5262/LiteSpeedTest/utils"
+	"github.com/wenp5262/LiteSpeed/common"
+	N "github.com/wenp5262/LiteSpeed/common/net"
+	"github.com/wenp5262/LiteSpeed/common/pool"
+	"github.com/wenp5262/LiteSpeed/log"
+	"github.com/wenp5262/LiteSpeed/tunnel"
+	"github.com/wenp5262/LiteSpeed/utils"
 )
 
 // proxy http/scocks to vmess

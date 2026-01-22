@@ -10,10 +10,10 @@ import (
 	"github.com/Dreamacro/go-shadowsocks2/core"
 	"github.com/Dreamacro/go-shadowsocks2/shadowaead"
 	"github.com/Dreamacro/go-shadowsocks2/shadowstream"
-	C "github.com/wenp5262/LiteSpeedTest/constant"
-	"github.com/wenp5262/LiteSpeedTest/transport/dialer"
-	"github.com/wenp5262/LiteSpeedTest/transport/ssr/obfs"
-	"github.com/wenp5262/LiteSpeedTest/transport/ssr/protocol"
+	C "github.com/wenp5262/LiteSpeed/constant"
+	"github.com/wenp5262/LiteSpeed/transport/dialer"
+	"github.com/wenp5262/LiteSpeed/transport/ssr/obfs"
+	"github.com/wenp5262/LiteSpeed/transport/ssr/protocol"
 )
 
 type ShadowSocksR struct {

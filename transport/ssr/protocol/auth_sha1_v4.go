@@ -8,8 +8,8 @@ import (
 	"math/rand"
 	"net"
 
-	"github.com/wenp5262/LiteSpeedTest/common/pool"
-	"github.com/wenp5262/LiteSpeedTest/transport/ssr/tools"
+	"github.com/wenp5262/LiteSpeed/common/pool"
+	"github.com/wenp5262/LiteSpeed/transport/ssr/tools"
 )
 
 func init() {

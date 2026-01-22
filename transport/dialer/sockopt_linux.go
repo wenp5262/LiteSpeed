@@ -6,7 +6,7 @@ package dialer
 import (
 	"syscall"
 
-	"github.com/wenp5262/LiteSpeedTest/common"
+	"github.com/wenp5262/LiteSpeed/common"
 	"golang.org/x/sys/unix"
 )
 

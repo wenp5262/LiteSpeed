@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/wenp5262/LiteSpeedTest/common/pool"
-	"github.com/wenp5262/LiteSpeedTest/log"
-	"github.com/wenp5262/LiteSpeedTest/transport/ssr/tools"
+	"github.com/wenp5262/LiteSpeed/common/pool"
+	"github.com/wenp5262/LiteSpeed/log"
+	"github.com/wenp5262/LiteSpeed/transport/ssr/tools"
 
 	"github.com/Dreamacro/go-shadowsocks2/core"
 )

@@ -13,8 +13,8 @@ import (
 	"net/url"
 	"strconv"
 
-	C "github.com/wenp5262/LiteSpeedTest/constant"
-	"github.com/wenp5262/LiteSpeedTest/transport/dialer"
+	C "github.com/wenp5262/LiteSpeed/constant"
+	"github.com/wenp5262/LiteSpeed/transport/dialer"
 )
 
 type Http struct {

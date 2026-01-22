@@ -11,8 +11,8 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/wenp5262/LiteSpeedTest/common"
-	"github.com/wenp5262/LiteSpeedTest/log"
+	"github.com/wenp5262/LiteSpeed/common"
+	"github.com/wenp5262/LiteSpeed/log"
 )
 
 func CheckLink(link string) ([]string, error) {

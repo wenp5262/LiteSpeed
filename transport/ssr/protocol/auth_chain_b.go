@@ -4,7 +4,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/wenp5262/LiteSpeedTest/transport/ssr/tools"
+	"github.com/wenp5262/LiteSpeed/transport/ssr/tools"
 )
 
 func init() {
