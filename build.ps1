@@ -6,6 +6,6 @@ $env:GOOS = "linux"
 $env:GOARCH = "amd64"
 $env:CGO_ENABLED = "0"
 
-go build -trimpath -ldflags "-s -w" -o lite-linux-with-ip
+go build -trimpath -ldflags "-s -w" -o LiteSpeed
 
-Write-Host "Build done: ./lite-linux-with-ip"
+Write-Host "Build done: ./LiteSpeed"

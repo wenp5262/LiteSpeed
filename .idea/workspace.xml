@@ -4,66 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6666a8d-8c47-4189-9c50-21ac5a1dd5a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
+    <list default="true" id="b6666a8d-8c47-4189-9c50-21ac5a1dd5a3" name="Changes" comment="新增启动说明">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/parse.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/parse.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/io.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/io.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/clash.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/clash.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/http.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/http.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/parser.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/resolver.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/resolver.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/shadowsocks.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/shadowsocks.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/shadowsocksr.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/shadowsocksr.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/trojan.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/trojan.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/vmess.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/vmess.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant/metadata.go" beforeDir="false" afterPath="$PROJECT_DIR$/constant/metadata.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dns/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/dns/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dns/resolver.go" beforeDir="false" afterPath="$PROJECT_DIR$/dns/resolver.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dns/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/dns/util.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outbound/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/outbound/base.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outbound/http.go" beforeDir="false" afterPath="$PROJECT_DIR$/outbound/http.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outbound/shadowsocks.go" beforeDir="false" afterPath="$PROJECT_DIR$/outbound/shadowsocks.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outbound/shadowsocksr.go" beforeDir="false" afterPath="$PROJECT_DIR$/outbound/shadowsocksr.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outbound/trojan.go" beforeDir="false" afterPath="$PROJECT_DIR$/outbound/trojan.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outbound/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/outbound/util.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outbound/vmess.go" beforeDir="false" afterPath="$PROJECT_DIR$/outbound/vmess.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/proxy.go" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/proxy.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/shadowsocks/shadowsocks.go" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/shadowsocks/shadowsocks.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/trojan/trojan.go" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/trojan/trojan.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/vmess/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/vmess/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/request/request.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/dialer/dialer.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/dialer/dialer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/dialer/sockopt_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/dialer/sockopt_linux.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/dialer/system_dialer.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/dialer/system_dialer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/dialer/system_listener.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/dialer/system_listener.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/gun/gun.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/gun/gun.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/ssr/obfs/http_simple.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/ssr/obfs/http_simple.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/ssr/obfs/random_head.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/ssr/obfs/random_head.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/ssr/obfs/tls1.2_ticket_auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/ssr/obfs/tls1.2_ticket_auth.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/auth_aes128_md5.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/ssr/protocol/auth_aes128_md5.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/auth_aes128_sha1.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/ssr/protocol/auth_aes128_sha1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/auth_chain_a.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/ssr/protocol/auth_chain_a.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/auth_chain_b.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/ssr/protocol/auth_chain_b.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/auth_sha1_v4.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/ssr/protocol/auth_sha1_v4.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/ssr/protocol/base.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/packet.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/ssr/protocol/packet.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/stream.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/ssr/protocol/stream.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/ssr/tools/random.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/ssr/tools/random.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/trojan/trojan.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/trojan/trojan.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/vmess/aead.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/vmess/aead.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/vmess/chunk.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/vmess/chunk.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/vmess/tls.go" beforeDir="false" afterPath="$PROJECT_DIR$/transport/vmess/tls.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tunnel/tunnel.go" beforeDir="false" afterPath="$PROJECT_DIR$/tunnel/tunnel.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/workerpool.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/workerpool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,24 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Go Build.go build github.com/wenp5262/LiteSpeedTest.executor": "Run",
-    "Go Build.go build main.go.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "E:/go-work/LiteSpeed",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Go Build.go build github.com/wenp5262/LiteSpeedTest.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build main.go.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/go-work/LiteSpeed&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build github.com/wenp5262/LiteSpeedTest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LiteSpeed" />
@@ -159,5 +103,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="最终版本" />
+    <MESSAGE value="修改说明" />
+    <MESSAGE value="新增启动说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增启动说明" />
   </component>
 </project>
