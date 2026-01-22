@@ -30,7 +30,7 @@ go build -trimpath -ldflags "-s -w" -o LiteSpeed
  ```
 
  ```
- ./lite-linux-with-ip -input "https://xxxx"
+ ./LiteSpeed -input "https://xxxx"
  ```
 
 ## Credits
