@@ -1,0 +1,14 @@
+{
+    "group": "?empty?",
+    "speedtestMode": "speedonly",
+    "pingMethod": "googleping",
+    "sortMethod": "rspeed",
+    "unique": true,
+    "concurrency": 3,
+    "timeout": 5,
+    "language": "en",
+    "fontSize": 24,
+    "theme": "rainbow",
+    "testMode": 2,
+    "subscription": "https://www.wenpblog.com/cdn/static/testSpeed.txt"
+}
