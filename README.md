@@ -30,9 +30,11 @@ go build -trimpath -ldflags "-s -w" -o LiteSpeed
  ```
 
  ```
- ./lite-linux-with-ip -input "https://xxxx"
+ ./LiteSpeed -input "https://xxxx"
  ```
-
+```
+./LiteSpeed_windows_386.exe -input "https://xxxx"
+```
 ## Credits
 
 - [clash](https://github.com/Dreamacro/clash)
