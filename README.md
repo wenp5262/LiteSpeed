@@ -10,11 +10,11 @@ Feature
 - support ss/ssr/v2ray/trojan/clash subscription or profile file, 
 
 感谢@xxf098 大佬，本工具是在LiteSpeedTest的基础上修改的，去掉了部分打印，去掉了web相关的内容，只保留了测速相关功能，新增检测节点国家的功能
+
 关于测速，只保证了节点的联通性，不展示具体的节点速度。
 
- ![build]() 
-
 ### Build
+build.ps1 打包脚本
 ```bash
 $env:GOOS = "linux"
 $env:GOARCH = "amd64"
