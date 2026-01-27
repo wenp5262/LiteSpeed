@@ -9,9 +9,38 @@ Feature
 - support ss/ssr/v2ray/trojan/clash profile links
 - support ss/ssr/v2ray/trojan/clash subscription or profile file, 
 
-感谢@xxf098 大佬，本工具是在LiteSpeedTest的基础上修改的，去掉了部分打印，去掉了web相关的内容，只保留了测速相关功能，新增检测节点国家的功能
+本项目基于 LiteSpeedTest 修改而来，感谢 @xxf098 大佬的原始贡献。
 
-关于测速，只保证了节点的联通性，不展示具体的节点速度。
+在原项目基础上：
+
+移除了冗余的日志打印
+
+去除了 Web 相关功能
+
+仅保留核心的测速与连通性检测能力
+
+新增 节点国家/地区检测 功能
+
+需要说明的是：
+本工具的测速结果仅用于判断节点的连通性状态，不用于展示或评估节点的实际带宽或速度性能。
+
+
+
+This project is a modified version of LiteSpeedTest, with special thanks to @xxf098 for the original work.
+
+Changes and features include:
+
+Removed unnecessary log outputs
+
+Stripped all web-related components
+
+Retained only the core connectivity and testing logic
+
+Added support for node country/region detection
+
+Note:
+The speed test in this project is designed only to verify node connectivity. It does not measure or display actual node bandwidth or performance.
+
 
 ### Build
 build.ps1 打包脚本
